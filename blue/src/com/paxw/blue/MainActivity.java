@@ -5,6 +5,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 import javax.security.auth.PrivateCredentialPermission;
 
@@ -31,7 +32,7 @@ import android.widget.ListView;
 
 
 public class MainActivity extends Activity {
-	private int column =2;
+	private int column =3;
 
 	private ListView listView;
 	private List<A> list;
@@ -76,11 +77,12 @@ public class MainActivity extends Activity {
 
 		@Override
 		public int getCount() {
-			if (list.size()%column==0) {
-				return list.size()/column;
-			}else {
-				return list.size()/column+1;
-			}
+//			if (list.size()%column==0) {
+//				return list.size()/column;
+//			}else {
+//				return list.size()/column+1;
+//			}
+			return 100000;
 		}
 
 		@Override
@@ -97,8 +99,6 @@ public class MainActivity extends Activity {
 					ls.add(list.get(i));
 				}
 			}
-			
-			
 			return ls;
 		}
 
@@ -118,22 +118,24 @@ public class MainActivity extends Activity {
 			}
 			rootLayout.removeAllViews();
 			float sumR = 0f;
-			for (int i = 0; i < column; i++) {
-				if (!(position*column+i<list.size())) {
-					break;
-				}
-				A a = list.get(position*column+i);
+			int cc =new Random().nextInt(2)+2+new Random().nextInt(2);
+			for (int i = 0; i <cc ; i++) {
+//				if (!(position*column+i<list.size())) {
+//					break;
+//				}
+				
+				A a = list.get((position*column+i)%list.size());
 				float h = Float.valueOf(a.getImageHeight());
 				float w = Float.valueOf(a.getImageWidth());
 				sumR+=(w/h);
 				
 			}
 			int height = (int) (width/sumR);
-			for (int i = 0; i < column; i++) {
-				if (!(position*column+i<list.size())) {
-					break;
-				}
-				A a = list.get(position*column+i);
+			for (int i = 0; i < cc; i++) {
+//				if (!(position*column+i<list.size())) {
+//					break;
+//				}
+				A a = list.get((position*column+i)%list.size());
 				float h = Float.valueOf(a.getImageHeight());
 				float w = Float.valueOf(a.getImageWidth());
 				ImageView tempView = new ImageView(MainActivity.this);
