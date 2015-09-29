@@ -1,0 +1,830 @@
+[
+    {
+        "desc" : "超速监控",
+        "detail_icon" : 1,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "超速",
+        "type" : 1,
+        "weight" : 70
+    },
+    {
+        "desc" : "闯红灯摄像头",
+        "detail_icon" : 2,
+        "distance" : 200,
+        "map_icon" : 2,
+        "name" : "闯红灯监控",
+        "type" : 2,
+        "weight" : 40
+    },
+    {
+        "desc" : "违规拍照",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "违规拍照",
+        "type" : 3,
+        "weight" : 70
+    },
+    {
+        "desc" : "流动测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "流动测速",
+        "type" : 4,
+        "weight" : 70
+    },
+    {
+        "desc" : "事故多发点",
+        "detail_icon" : 5,
+        "distance" :  350,
+        "map_icon" : 17,
+        "name" : "事故多发",
+        "type" : 5,
+        "weight" : 70
+    },
+    {
+        "desc" : "警察检查酒驾",
+        "detail_icon" : 5,
+        "distance" : 1000,
+        "map_icon" : 17,
+        "name" : "检查酒驾",
+        "type" : 6,
+        "weight" : 60
+    },
+    {
+        "desc" : "警察违停罚单",
+        "detail_icon" : 5,
+        "distance" : 350,
+        "map_icon" : 17,
+        "name" : "违停罚单",
+        "type" : 7,
+        "weight" : 70
+    },
+    {
+        "desc" : "拥堵路段",
+        "detail_icon" : 8,
+        "distance" : 1000,
+        "map_icon" : 5,
+        "name" : "道路拥堵",
+        "type" : 8,
+        "weight" : 50
+    },
+    {
+        "desc" : "道路施工",
+        "detail_icon" : 14,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "道路施工",
+        "type" : 9,
+        "weight" : 50
+    },
+    {
+        "desc" : "报路况",
+        "detail_icon" : 10,
+        "distance" : 0,
+        "map_icon" : 7,
+        "name" : "报路况",
+        "type" : 10,
+        "weight" : 50
+    },
+    {
+        "desc" : "用户猪头",
+        "detail_icon" : 11,
+        "distance" : 0,
+        "map_icon" : 0,
+        "name" : "用户猪头",
+        "type" : 11,
+        "weight" : 0
+    },
+    {
+        "desc" : "缓行路段",
+        "detail_icon" : 8,
+        "distance" : 500,
+        "map_icon" : 5,
+        "name" : "缓行",
+        "type" : 12,
+        "weight" : 50
+    },
+    {
+        "desc" : "交通管制",
+        "detail_icon" : 13,
+        "distance" : 1000,
+        "map_icon" : 10,
+        "name" : "交通管制",
+        "type" : 13,
+        "weight" : 50
+    },
+    {
+        "desc" : "交通警示",
+        "detail_icon" : 14,
+        "distance" : 200,
+        "map_icon" : 11,
+        "name" : "交通警示",
+        "type" : 14,
+        "weight" : 50
+    },
+    {
+        "desc" : "120/100公里分道超速监控",
+        "detail_icon" : 4,
+        "distance" : 500,
+        "map_icon" : 1,
+        "name" : "120/100公里分道超速",
+        "type" : 15,
+        "weight" : 70
+    },
+    {
+        "desc" : "紧急停车线拍照",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "紧急停车线拍照",
+        "type" : 16,
+        "weight" : 70
+    },
+    {
+        "desc" : "单行线逆行拍照",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "单行线逆行拍照",
+        "type" : 17,
+        "weight" : 70
+    },
+    {
+        "desc" : "限号拍照",
+        "detail_icon" : 3,
+        "distance" : 1000,
+        "map_icon" : 3,
+        "name" : "限号拍照",
+        "type" : 18,
+        "weight" : 70
+    },
+    {
+        "desc" : "非机动车拍照",
+        "detail_icon" : 3,
+        "distance" : 1000,
+        "map_icon" : 3,
+        "name" : "非机动车拍照",
+        "type" : 19,
+        "weight" : 70
+    },
+    {
+        "desc" : "积水",
+        "detail_icon" : 20,
+        "distance" : 1000,
+        "map_icon" : 14,
+        "name" : "积水",
+        "type" : 20,
+        "weight" : 500
+    },
+    {
+        "desc" : "警察检查",
+        "detail_icon" : 21,
+        "distance" : 1000,
+        "map_icon" : 13,
+        "name" : "警察",
+        "type" : 21,
+        "weight" : 60
+    },
+    {
+        "desc" : "事故",
+        "detail_icon" : 23,
+        "distance" : 500,
+        "map_icon" : 16,
+        "name" : "事故",
+        "type" : 22,
+        "weight" : 50
+    },
+    {
+        "desc" : "大事故",
+        "detail_icon" : 23,
+        "distance" : 1000,
+        "map_icon" : 17,
+        "name" : "大事故",
+        "type" : 23,
+        "weight" : 50
+    },
+    {
+        "desc" : "小事故",
+        "detail_icon" : 24,
+        "distance" : 500,
+        "map_icon" : 17,
+        "name" : "小事故",
+        "type" : 24,
+        "weight" : 50
+    },
+    {
+        "desc" : "危险",
+        "detail_icon" : 25,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "危险",
+        "type" : 25,
+        "weight" : 50
+    },
+    {
+        "desc" : "障碍物",
+        "detail_icon" : 25,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "障碍物",
+        "type" : 26,
+        "weight" : 50
+    },
+    {
+        "desc" : "故障车",
+        "detail_icon" : 25,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "故障车",
+        "type" : 27,
+        "weight" : 50
+    },
+    {
+        "desc" : "路面损坏",
+        "detail_icon" : 25,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "路面损坏",
+        "type" : 28,
+        "weight" : 50
+    },
+    {
+        "New item" : 25,
+        "desc" : "漏油",
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "漏油",
+        "type" : 29,
+        "weight" : 50
+    },
+    {
+        "desc" : "积雪路段",
+        "detail_icon" : 39,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "积雪",
+        "type" : 30,
+        "weight" : 50
+    },
+    {
+        "desc" : "路肩故障车",
+        "detail_icon" : 31,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "故障车",
+        "type" : 31,
+        "weight" : 50
+    },
+    {
+        "desc" : "路肩山体滑坡",
+        "detail_icon" : 31,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "山体滑坡",
+        "type" : 32,
+        "weight" : 50
+    },
+    {
+        "desc" : "路肩火灾",
+        "detail_icon" : 31,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "火灾",
+        "type" : 33,
+        "weight" : 50
+    },
+    {
+        "desc" : "路肩危险",
+        "detail_icon" : 31,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "其他危险",
+        "type" : 34,
+        "weight" : 50
+    },
+    {
+        "desc" : "降雨",
+        "detail_icon" : 35,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "雨",
+        "type" : 35,
+        "weight" : 50
+    },
+    {
+        "desc" : "雾",
+        "detail_icon" : 36,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "雾",
+        "type" : 36,
+        "weight" : 50
+    },
+    {
+        "desc" : "冰雹天气",
+        "detail_icon" : 37,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "冰雹",
+        "type" : 37,
+        "weight" : 50
+    },
+    {
+        "desc" : "大风天气",
+        "detail_icon" : 38,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "大风",
+        "type" : 38,
+        "weight" : 50
+    },
+    {
+        "desc" : "降雪",
+        "detail_icon" : 39,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "雪",
+        "type" : 39,
+        "weight" : 50
+    },
+    {
+        "desc" : "摄像头",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "摄像头",
+        "type" : 40,
+        "weight" : 70
+    },
+    {
+        "desc" : "测速点",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "测速",
+        "type" : 41,
+        "weight" : 70
+    },
+    {
+        "desc" : "摄像头",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "其他摄像头",
+        "type" : 42,
+        "weight" : 70
+    },
+    {
+        "desc" : "禁止通行",
+        "detail_icon" : 43,
+        "distance" : 1000,
+        "map_icon" : 22,
+        "name" : "禁止通行",
+        "type" : 43,
+        "weight" : 50
+    },
+    {
+        "desc" : "1车道限制",
+        "detail_icon" : 44,
+        "distance" : 1000,
+        "map_icon" : 10,
+        "name" : "1车道限制",
+        "type" : 44,
+        "weight" : 50
+    },
+    {
+        "desc" : "两车道限制",
+        "detail_icon" : 44,
+        "distance" : 1000,
+        "map_icon" : 10,
+        "name" : "2车道限制",
+        "type" : 45,
+        "weight" : 50
+    },
+    {
+        "desc" : "3车道限制",
+        "detail_icon" : 44,
+        "distance" : 1000,
+        "map_icon" : 10,
+        "name" : "3车道限制",
+        "type" : 46,
+        "weight" : 50
+    },
+    {
+        "desc" : "4车道限制",
+        "detail_icon" : 44,
+        "distance" : 1000,
+        "map_icon" : 10,
+        "name" : "4车道限制",
+        "type" : 47,
+        "weight" : 50
+    },
+    {
+        "desc" : "禁止右转",
+        "detail_icon" : 48,
+        "distance" : 1000,
+        "map_icon" : 23,
+        "name" : "禁止右转",
+        "type" : 48,
+        "weight" : 50
+    },
+    {
+        "desc" : "禁止左转",
+        "detail_icon" : 49,
+        "distance" : 1000,
+        "map_icon" : 24,
+        "name" : "禁止左转",
+        "type" : 49,
+        "weight" : 50
+    },
+    {
+        "desc" : "禁止直行",
+        "detail_icon" : 50,
+        "distance" : 1000,
+        "map_icon" : 25,
+        "name" : "禁止直行",
+        "type" : 50,
+        "weight" : 50
+    },
+    {
+        "desc" : "禁止左右转弯",
+        "detail_icon" : 51,
+        "distance" : 1000,
+        "map_icon" : 26,
+        "name" : "禁止左右转弯",
+        "type" : 51,
+        "weight" : 50
+    },
+    {
+        "desc" : "禁止掉头",
+        "detail_icon" : 52,
+        "distance" : 1000,
+        "map_icon" : 27,
+        "name" : "禁止掉头",
+        "type" : 52,
+        "weight" : 50
+    },
+    {
+        "desc" : "入口匝道关闭",
+        "detail_icon" : 53,
+        "distance" : 1000,
+        "map_icon" : 28,
+        "name" : "入口匝道关闭",
+        "type" : 53,
+        "weight" : 50
+    },
+    {
+        "desc" : "出口匝道关闭",
+        "detail_icon" : 54,
+        "distance" : 1000,
+        "map_icon" : 29,
+        "name" : "出口匝道关闭",
+        "type" : 54,
+        "weight" : 50
+    },
+    {
+        "desc" : "中等拥堵路段",
+        "detail_icon" : 55,
+        "distance" : 1000,
+        "map_icon" : 5,
+        "name" : "中等(拥堵)",
+        "type" : 55,
+        "weight" : 50
+    },
+    {
+        "desc" : "严重拥堵路段",
+        "detail_icon" : 56,
+        "distance" : 1000,
+        "map_icon" : 5,
+        "name" : "严重(拥堵)",
+        "type" : 56,
+        "weight" : 50
+    },
+    {
+        "desc" : "交通堵死路段",
+        "detail_icon" : 57,
+        "distance" : 1000,
+        "map_icon" : 5,
+        "name" : "堵死(拥堵)",
+        "type" : 57,
+        "weight" : 50
+    },
+    {
+        "desc" : "警察查违章",
+        "detail_icon" : 58,
+        "distance" : 1000,
+        "map_icon" : 13,
+        "name" : "查违章",
+        "type" : 58,
+        "weight" : 60
+    },
+    {
+        "desc" : "路上危险",
+        "detail_icon" : 59,
+        "distance" : 1000,
+        "map_icon" : 11,
+        "name" : "在路上",
+        "type" : 59,
+        "weight" : 50
+    },
+    {
+        "desc" : "路肩危险",
+        "detail_icon" : 31,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "在路肩",
+        "type" : 60,
+        "weight" : 50
+    },
+    {
+        "desc" : "异常天气",
+        "detail_icon" : 61,
+        "distance" : 500,
+        "map_icon" : 11,
+        "name" : "其他天气",
+        "type" : 61,
+        "weight" : 50
+    },
+    {
+     "desc" : "大型活动",
+        "detail_icon" : 62,
+        "distance" : 1000,
+        "map_icon" : 62,
+        "name" : "大型活动",
+        "type" : 62,
+        "weight" : 50
+    },
+    {
+     "desc" : "国宾出行警备",
+        "detail_icon" : 63,
+        "distance" : 1000,
+        "map_icon" : 63,
+        "name" : "国宾出行警备",
+        "type" : 63,
+        "weight" : 50
+    },
+    {
+     "desc" : "公益活动",
+        "detail_icon" : 64,
+        "distance" : 1000,
+        "map_icon" : 64,
+        "name" : "公益活动",
+        "type" : 64,
+        "weight" : 50
+    },
+    {
+     "desc" : "大型会议",
+        "detail_icon" : 65,
+        "distance" : 1000,
+        "map_icon" : 65,
+        "name" : "大型会议",
+        "type" : 65,
+        "weight" : 50
+    },
+    {
+     "desc" : "体育活动",
+        "detail_icon" : 66,
+        "distance" : 1000,
+        "map_icon" : 66,
+        "name" : "体育活动",
+        "type" : 66,
+        "weight" : 50
+    },
+    {
+     "desc" : "文艺活动",
+        "detail_icon" : 67,
+        "distance" : 1000,
+        "map_icon" : 67,
+        "name" : "文艺活动",
+        "type" : 67,
+        "weight" : 50
+    },
+    {
+     "desc" : "集会活动",
+        "detail_icon" : 68,
+        "distance" : 1000,
+        "map_icon" : 68,
+        "name" : "集会活动",
+        "type" : 68,
+        "weight" : 50
+    },
+    {
+     "desc" : "游行活动",
+        "detail_icon" : 69,
+        "distance" : 1000,
+        "map_icon" : 69,
+        "name" : "游行活动",
+        "type" : 69,
+        "weight" : 50
+    },
+    {
+     "desc" : "博览会",
+        "detail_icon" : 70,
+        "distance" : 1000,
+        "map_icon" : 70,
+        "name" : "博览会",
+        "type" : 70,
+        "weight" : 50
+    },
+    {
+     "desc" : "突发事件",
+        "detail_icon" : 71,
+        "distance" : 1000,
+        "map_icon" : 71,
+        "name" : "突发事件",
+        "type" : 71,
+        "weight" : 50
+    },
+    {
+     "desc" : "节假日",
+        "detail_icon" : 72,
+        "distance" : 1000,
+        "map_icon" : 72,
+        "name" : "节假日",
+        "type" : 72,
+        "weight" : 50
+    },
+ 	{
+     "desc" : "路况异常，请减速慢行",
+        "detail_icon" : 73,
+        "distance" : 1000,
+        "map_icon" : 73,
+        "name" : "路况异常(语音路况事件)",
+        "type" : 73,
+        "weight" : 50
+    },
+	{
+        "desc" : "视频测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "视频测速照相",
+        "type" : 74,
+        "weight" : 70
+    },
+	{
+        "desc" : "高架桥上测速",
+        "detail_icon" : 4,
+        "distance" : 500,
+        "map_icon" : 1,
+        "name" : "高架上测速照相",
+        "type" : 75,
+        "weight" : 70
+    },
+	{
+        "desc" : "雷达测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "雷达测速照相",
+        "type" : 76,
+        "weight" : 70
+    },
+	{
+        "desc" : "主道固定测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "主道固定测速照相",
+        "type" : 77,
+        "weight" : 70
+    },
+	{
+        "desc" : "主道视频测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "主道视频测速照相",
+        "type" : 78,
+        "weight" : 70
+    },
+	{
+        "desc" : "高架桥下测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "高架下测速照相",
+        "type" : 79,
+        "weight" : 70
+    },
+	{
+        "desc" : "辅道测速",
+        "detail_icon" : 4,
+        "distance" : 200,
+        "map_icon" : 1,
+        "name" : "辅道测速照相",
+        "type" : 80,
+        "weight" : 70
+    },
+	{
+        "desc" : "隐藏测速",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "隐藏式测速照相",
+        "type" : 81,
+        "weight" : 70
+    },
+	{
+        "desc" : "区间测速起点",
+        "detail_icon" : 4,
+        "distance" : 350,
+        "map_icon" : 1,
+        "name" : "区间测速照相起点",
+        "type" : 82,
+        "weight" : 70
+    },
+	{
+        "desc" : "区间测速终点",
+        "detail_icon" : 4,
+        "distance" : 100,
+        "map_icon" : 1,
+        "name" : "区间测速照相终点",
+        "type" : 83,
+        "weight" : 70
+    },
+	{
+        "desc" : "高速测速",
+        "detail_icon" : 4,
+        "distance" : 500,
+        "map_icon" : 1,
+        "name" : "高速路上测速照相",
+        "type" : 84,
+        "weight" : 70
+    },
+    {
+        "desc" : "隧道照相",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "隧道照相",
+        "type" : 85,
+        "weight" : 70
+    },
+    {
+        "desc" : "高架监控照相",
+        "detail_icon" : 3,
+        "distance" : 500,
+        "map_icon" : 3,
+        "name" : "高架上监控照相",
+        "type" : 86,
+        "weight" : 70
+    },
+    {
+        "desc" : "视频监控",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "视频监控照相",
+        "type" : 87,
+        "weight" : 70
+    },
+    {
+        "desc" : "主道视频监控",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "主道视频监控照相",
+        "type" : 88,
+        "weight" : 70
+    },
+    {
+        "desc" : "高架下红灯照相",
+        "detail_icon" : 3,
+        "distance" : 200,
+        "map_icon" : 3,
+        "name" : "高架下红灯照相",
+        "type" : 89,
+        "weight" : 70
+    },
+    {
+        "desc" : "道路通畅",
+        "detail_icon" : 3,
+        "distance" : 350,
+        "map_icon" : 3,
+        "name" : "道路通畅",
+        "type" : 90,
+        "weight" : 50
+    },
+    {
+        "desc" : "地面道路红灯照相",
+        "detail_icon" : 3,
+        "distance" : 200,
+        "map_icon" : 3,
+        "name" : "地面道路红灯照相",
+        "type" : 91,
+        "weight" : 40
+    },
+    {
+        "desc" : "辅道红灯照相",
+        "detail_icon" : 91,
+        "distance" : 200,
+        "map_icon" : 91,
+        "name" : "辅道红灯照相",
+        "type" : 92,
+        "weight" : 40
+    }
+]
