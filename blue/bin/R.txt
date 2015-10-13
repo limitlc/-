@@ -36,11 +36,17 @@ int attr actionProviderClass 0x7f01004c
 int attr actionViewClass 0x7f01004b
 int attr activityChooserViewStyle 0x7f010068
 int attr background 0x7f01002b
+int attr backgroundColor 0x7f010077
 int attr backgroundSplit 0x7f01002d
 int attr backgroundStacked 0x7f01002c
+int attr barColor 0x7f01006d
+int attr barLength 0x7f010075
+int attr barWidth 0x7f010074
 int attr buttonBarButtonStyle 0x7f010014
 int attr buttonBarStyle 0x7f010013
+int attr circleColor 0x7f010072
 int attr customNavigationLayout 0x7f01002e
+int attr delayMillis 0x7f010071
 int attr disableChildrenWhenDisabled 0x7f010050
 int attr displayOptions 0x7f010024
 int attr divider 0x7f01002a
@@ -50,6 +56,7 @@ int attr dividerVertical 0x7f010016
 int attr dropDownListViewStyle 0x7f01001d
 int attr dropdownListPreferredItemHeight 0x7f010044
 int attr expandActivityOverflowButtonDrawable 0x7f010067
+int attr foregroundColor 0x7f010076
 int attr height 0x7f010022
 int attr homeAsUpIndicator 0x7f01000f
 int attr homeLayout 0x7f01002f
@@ -78,6 +85,9 @@ int attr progressBarPadding 0x7f010032
 int attr progressBarStyle 0x7f010030
 int attr prompt 0x7f01004d
 int attr queryHint 0x7f010057
+int attr radius 0x7f010073
+int attr rimColor 0x7f01006e
+int attr rimWidth 0x7f01006f
 int attr searchDropdownBackground 0x7f010058
 int attr searchResultListItemHeight 0x7f010061
 int attr searchViewAutoCompleteTextView 0x7f010065
@@ -92,11 +102,13 @@ int attr searchViewVoiceIcon 0x7f01005c
 int attr selectableItemBackground 0x7f010015
 int attr showAsAction 0x7f010049
 int attr showDividers 0x7f010051
+int attr spinSpeed 0x7f010070
 int attr spinnerDropDownItemStyle 0x7f010054
 int attr spinnerMode 0x7f01004e
 int attr spinnerStyle 0x7f010053
 int attr subtitle 0x7f010025
 int attr subtitleTextStyle 0x7f010027
+int attr text 0x7f01006a
 int attr textAllCaps 0x7f010069
 int attr textAppearanceLargePopupMenu 0x7f010010
 int attr textAppearanceListItem 0x7f01001f
@@ -104,7 +116,9 @@ int attr textAppearanceListItemSmall 0x7f010020
 int attr textAppearanceSearchResultSubtitle 0x7f010063
 int attr textAppearanceSearchResultTitle 0x7f010062
 int attr textAppearanceSmallPopupMenu 0x7f010011
+int attr textColor 0x7f01006b
 int attr textColorSearchUrl 0x7f010064
+int attr textSize 0x7f01006c
 int attr title 0x7f010021
 int attr titleTextStyle 0x7f010026
 int attr windowActionBar 0x7f010000
@@ -243,7 +257,7 @@ int id action_context_bar 0x7f09001d
 int id action_menu_divider 0x7f090002
 int id action_menu_presenter 0x7f090003
 int id action_mode_close_button 0x7f090024
-int id action_settings 0x7f09003e
+int id action_settings 0x7f09003f
 int id activity_chooser_view_content 0x7f090025
 int id always 0x7f09000f
 int id beginning 0x7f090016
@@ -269,10 +283,11 @@ int id middle 0x7f090018
 int id never 0x7f090012
 int id none 0x7f090019
 int id normal 0x7f090007
+int id pie 0x7f09003d
 int id progress_circular 0x7f090004
 int id progress_horizontal 0x7f090005
 int id radio 0x7f09002f
-int id rado_rotate 0x7f09003d
+int id rado_rotate 0x7f09003e
 int id search_badge 0x7f090032
 int id search_bar 0x7f090031
 int id search_button 0x7f090033
@@ -552,6 +567,22 @@ int styleable MenuView_android_itemTextAppearance 1
 int styleable MenuView_android_preserveIconSpacing 7
 int styleable MenuView_android_verticalDivider 3
 int styleable MenuView_android_windowAnimationStyle 0
+int[] styleable PieProgress { 0x7f010076, 0x7f010077 }
+int styleable PieProgress_backgroundColor 1
+int styleable PieProgress_foregroundColor 0
+int[] styleable ProgressWheel { 0x7f01006a, 0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e, 0x7f01006f, 0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073, 0x7f010074, 0x7f010075 }
+int styleable ProgressWheel_barColor 3
+int styleable ProgressWheel_barLength 11
+int styleable ProgressWheel_barWidth 10
+int styleable ProgressWheel_circleColor 8
+int styleable ProgressWheel_delayMillis 7
+int styleable ProgressWheel_radius 9
+int styleable ProgressWheel_rimColor 4
+int styleable ProgressWheel_rimWidth 5
+int styleable ProgressWheel_spinSpeed 6
+int styleable ProgressWheel_text 0
+int styleable ProgressWheel_textColor 1
+int styleable ProgressWheel_textSize 2
 int[] styleable SearchView { 0x0101011f, 0x01010220, 0x01010264, 0x7f010056, 0x7f010057 }
 int styleable SearchView_android_imeOptions 2
 int styleable SearchView_android_inputType 1

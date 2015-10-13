@@ -2,15 +2,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
- 	android:orientation="vertical"
+    android:orientation="vertical"
     tools:context="com.paxw.blue.MainActivity" >
-   
-    <ListView 
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-   		 android:layout_height="match_parent"
 
-        ></ListView>
- 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <com.paxw.view.BingZhuangPro
+            xmlns:bing="http://schemas.android.com/apk/res/com.paxw.blue"
+            android:id="@+id/pie"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            bing:backgroundColor="#FF4444"
+            bing:foregroundColor="#339BB9" />
+    </RelativeLayout>
 
 </LinearLayout>

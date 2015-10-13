@@ -11,18 +11,25 @@ import javax.security.auth.PrivateCredentialPermission;
 
 import com.google.gson.Gson;
 import com.paxw.blue.MainActivity.Bean.A;
+import com.paxw.view.BingZhuangPro;
 import com.squareup.picasso.Picasso;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.graphics.SumPathEffect;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -33,7 +40,6 @@ import android.widget.ListView;
 
 public class MainActivity extends Activity {
 	private int column =3;
-
 	private ListView listView;
 	private List<A> list;
 	private Bean bean;
@@ -46,16 +52,55 @@ public class MainActivity extends Activity {
 		WindowManager wm = (WindowManager) this
                 .getSystemService(Context.WINDOW_SERVICE);
 		width =wm.getDefaultDisplay().getWidth();
+		pi = (BingZhuangPro) findViewById(R.id.pie);
+		pi.setProgress(0);
 		readAssets();
 		if (null!=bean) {
 			Log.e("------", bean.getDataArr().size()+"");
 			list = bean.getDataArr();
 		}
 		listView.setAdapter(new MyAdapter());
+		listView.setOnItemClickListener(new OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				Thread t = new Thread(){
+					@Override
+					public void run() {
+						while (true) {
+							try {
+								this.sleep(10);
+								handler.sendEmptyMessage(11);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+						}
+					}
+				};
+				t.start();
+			}
+		});
 		
 		
 		
 	}
+	private int progress;
+	Handler handler = new Handler(){
+		public void handleMessage(android.os.Message msg) {
+			
+			if (progress>360) {
+				return;
+			}
+			
+			pi.setProgress(progress);
+			progress+=1;
+			
+			
+		};
+	};
+	private BingZhuangPro pi;
 	private void readAssets(){
 		 try {
 			InputStream is = getAssets().open("a");
